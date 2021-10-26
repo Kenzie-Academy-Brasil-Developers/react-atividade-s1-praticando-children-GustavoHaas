@@ -1,0 +1,18 @@
+body {
+    background-color:rgb(39, 39, 39);
+    margin-top: 200px;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App > div {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    color:darkslategrey;
+    width: 300px;
+}

@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import pato from './pato.png';
 import './App.css';
+
+import CenteredCard from "./components/CenteredCard"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CenteredCard> <h1>Patinho da Kenzie é um ótimo professor!</h1> </CenteredCard>
+      <CenteredCard> <img src={pato}></img> </CenteredCard>
+      <CenteredCard> <h1>Kenzie Academy Brasil!</h1> </CenteredCard>
     </div>
   );
 }
